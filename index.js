@@ -1,11 +1,10 @@
 const express = require("express");
 const app = express();
 
-app.set("veaw engine", "ejs");
+app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.status(500).json({ message: "Error" });
-  res.render("index");
+  res.render("index", { text: "World" });
 });
 
 app.listen(3000);
