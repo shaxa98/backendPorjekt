@@ -1,26 +1,19 @@
 {
-  "name": "1",
+  "name": "express-crash-course",
   "version": "1.0.0",
-  "description": "7",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon index.js"
+    "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shaxa98/backendPorjekt.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shaxa98/backendPorjekt/issues"
-  },
-  "homepage": "https://github.com/shaxa98/backendPorjekt#readme",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.12"
   }
 }
